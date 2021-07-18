@@ -1,0 +1,80 @@
+Research:
+
+1. What is Git and why do we use it?
+2. What is Git Bash?
+3. What is the use of GitHub repository?
+4. What is the purpose of readme file in github?
+5. what do mean git init?
+6. What is the point of git add?
+7. What is the point of git commit?
+8. What is the difference between git add and git commit?
+9. what is git branch?
+10. Git Branch Command
+11. why use git merge?
+12. What is the difference between git merge and git pull?
+13. how to resolve merge conflicts in git?
+14. how to avoid merge conflicts in git?
+
+
+
+Answer:
+
+1. Git is the most commonly used version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source.
+
+2. Git Bash is an application for Microsoft Windows environments which provides an emulation layer for a Git command line experience. Bash is an acronym for Bourne Again Shell. A shell is a terminal application used to interface with an operating system through written commands.
+
+3. A repository contains all of your project's files and each file's revision history. You can discuss and manage your project's work within the repository. You can own repositories individually, or you can share ownership of repositories with other people in an organization.
+
+4. A ReadMe file is a standard place for instructions or documentation that you want to share with people about a repo. Here's how to add a ReadMe file to your Git repo
+
+5. The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
+
+6. The git add command adds new or changed files in your working directory to the Git staging area. git add is an important command - without it, no git commit would ever do anything. Sometimes, git add can have a reputation for being an unnecessary step in development.
+
+7. The git commit command is one of the core primary functions of Git. Prior use of the git add command is required to select the changes that will be staged for the next commit. Then git commit is used to create a snapshot of the staged changes along a timeline of a Git projects history.
+
+8. git add adds your modified files to the queue to be committed later. Files are not committed. git commit commits the files that have been added and creates a new revision with a log... If you do not add any files, git will not commit anything.
+ 
+9. A branch is essentially is a unique set of code changes with a unique name. Each repository can have one or more branches. ... This is the official working version of your project, and the one you see when you visit the project repository at github.com/yourname/projectname. Do not mess with the master.
+
+10. If you are interested in my Git aliases, have a look at my .bash_profile, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile
+
+11. Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Note that all of the commands presented below merge into the current branch.
+
+12. The git pull command first runs git fetch which downloads content from the specified remote repository. Then a git merge is executed to merge the remote content refs and heads into a new local merge commit. ... git pull will fetch the diverged remote commits which are A-B-C.
+
+13. Git is one of the most popular source-control systems that enable software development professionals in all industries, enabling multiple team members to work concurrently on projects. Since many users are simultaneously working from different places on the same file, however, you may end up with a merge conflict. This article explains the basics of Git merge conflicts and one of the advanced operations of Git: resolving a Git merge conflict. 
+
+14. Git can resolve differences between branches/forks and merge them automatically. Unless, of course, there are conflicting sets of changes. These can be resolved, but we want to avoid Git merge conflicts altogether instead of dealing with them later on.
+
+
+Research Link:
+
+
+Git:		https://www.nobledesktop.com/blog/what-is-git-and-why-should-you-use-it
+		https://dev.to/kodekloud/devops-git-for-beginners-33bc
+Git Bash:	https://www.atlassian.com/git/tutorials/git-bash
+
+Github Repo:
+https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories
+	
+https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAG2wCy369sfY9O9XoPLrWgbNw-dVb3o8nUWieS2mCIAVRjOZdGvHF81Stk-u3mSPDgTuygKjyS7zh4ZFVy3BmtJNbFGTWfjDKo5kkNzZ4qlYX6ASP3qUPRX6-PkyiAu731xD2AG7XstbSiHV4IXoXdl7zs99H4Cr1goa8--w4M91
+
+Github Readme:	https://www.nobledesktop.com/learn/git/create-a-readme-file
+Git Init:
+https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init#:~:text=The%20git%20init%20command%20creates,run%20in%20a%20new%20project.
+
+Git Add:	https://www.atlassian.com/git/tutorials/saving-changes
+Git Commit:	https://www.atlassian.com/git/tutorials/saving-changes/git-commit
+Add vs Commit:	https://newbedev.com/git-add-vs-push-vs-commit
+
+Git Branch:	https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/
+		https://www.atlassian.com/git/tutorials/using-branches
+
+Branch Command:	https://github.com/joshnh/Git-Commands
+Git Merge:	https://www.atlassian.com/git/tutorials/using-branches/git-merge
+Merge vs Pull:	https://www.atlassian.com/git/tutorials/syncing/git-pull
+Git Conflict:	https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git
+		https://www.gitkraken.com/learn/git/tutorials/how-to-resolve-merge-conflict-in-git
+
+Avoid Conflict:	https://www.openbankproject.com/how-to-avoid-merge-conflicts-on-git/
