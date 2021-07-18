@@ -14,7 +14,8 @@ Research:
 12. What is the difference between git merge and git pull?
 13. how to resolve merge conflicts in git?
 14. how to avoid merge conflicts in git?
-
+15. Is git a centralized or distributed version control system?
+16. what is the correct commit syntax for all changes with a message in git?
 
 
 Answer:
@@ -47,6 +48,11 @@ Answer:
 
 14. Git can resolve differences between branches/forks and merge them automatically. Unless, of course, there are conflicting sets of changes. These can be resolved, but we want to avoid Git merge conflicts altogether instead of dealing with them later on.
 
+15. In the past five years or so a new breed of tools has appeared: so-called “distributed” version control systems (DVCS for short). The three most popular of these are Mercurial, Git and Bazaar. These systems do not necessarily rely on a central server to store all the versions of a project's files.
+
+16. git commit -a -m "your message" is shorthand. It adds all tracked files and then commits them with your message. You can change the characters in front of the equal sign to your liking.
+
+
 
 Research Link:
 
@@ -78,3 +84,9 @@ Git Conflict:	https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts
 		https://www.gitkraken.com/learn/git/tutorials/how-to-resolve-merge-conflict-in-git
 
 Avoid Conflict:	https://www.openbankproject.com/how-to-avoid-merge-conflicts-on-git/
+Centralized or Decentralized: https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs
+Commit Syntax for all changes:
+https://teamtreehouse.com/community/git-commit-a-m-new-message-commits-all-changes-so-what-happens-when-i-just-type-git-commit-m-new-message
+
+https://learn.co/lessons/git-github-learn-quiz
+
