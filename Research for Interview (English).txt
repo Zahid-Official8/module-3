@@ -1,4 +1,4 @@
-Research:
+Question:
 
 1. What is Git and why do we use it?
 2. What is Git Bash?
@@ -54,22 +54,18 @@ Answer:
 
 
 
-Research Link:
+Resourse Link:
 
 
 Git:		https://www.nobledesktop.com/blog/what-is-git-and-why-should-you-use-it
 		https://dev.to/kodekloud/devops-git-for-beginners-33bc
+
 Git Bash:	https://www.atlassian.com/git/tutorials/git-bash
-
-Github Repo:
-https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-repositories
-	
-https://techcrunch.com/2012/07/14/what-exactly-is-github-anyway/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAG2wCy369sfY9O9XoPLrWgbNw-dVb3o8nUWieS2mCIAVRjOZdGvHF81Stk-u3mSPDgTuygKjyS7zh4ZFVy3BmtJNbFGTWfjDKo5kkNzZ4qlYX6ASP3qUPRX6-PkyiAu731xD2AG7XstbSiHV4IXoXdl7zs99H4Cr1goa8--w4M91
-
+Github Repo:	https://cutt.ly/wQypgiu
+		https://cutt.ly/HQyplcM
+		
 Github Readme:	https://www.nobledesktop.com/learn/git/create-a-readme-file
-Git Init:
-https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init#:~:text=The%20git%20init%20command%20creates,run%20in%20a%20new%20project.
-
+Git Init:	https://cutt.ly/gQypcWt
 Git Add:	https://www.atlassian.com/git/tutorials/saving-changes
 Git Commit:	https://www.atlassian.com/git/tutorials/saving-changes/git-commit
 Add vs Commit:	https://newbedev.com/git-add-vs-push-vs-commit
@@ -80,13 +76,13 @@ Git Branch:	https://thenewstack.io/dont-mess-with-the-master-working-with-branch
 Branch Command:	https://github.com/joshnh/Git-Commands
 Git Merge:	https://www.atlassian.com/git/tutorials/using-branches/git-merge
 Merge vs Pull:	https://www.atlassian.com/git/tutorials/syncing/git-pull
+Avoid Conflict:	https://www.openbankproject.com/how-to-avoid-merge-conflicts-on-git/
 Git Conflict:	https://www.simplilearn.com/tutorials/git-tutorial/merge-conflicts-in-git
 		https://www.gitkraken.com/learn/git/tutorials/how-to-resolve-merge-conflict-in-git
 
-Avoid Conflict:	https://www.openbankproject.com/how-to-avoid-merge-conflicts-on-git/
-Centralized or Decentralized: https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs
-Commit Syntax for all changes:
-https://teamtreehouse.com/community/git-commit-a-m-new-message-commits-all-changes-so-what-happens-when-i-just-type-git-commit-m-new-message
+Centralized or Decentralized:   https://www.atlassian.com/blog/software-teams/version-control-centralized-dvcs
+Commit Syntax for all changes:  https://cutt.ly/hQypWPV
+				https://learn.co/lessons/git-github-learn-quiz
 
-https://learn.co/lessons/git-github-learn-quiz
+
 
